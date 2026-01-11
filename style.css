@@ -1,0 +1,114 @@
+
+
+
+
+section{
+    background-color: hsl(84, 20%, 80%);
+    margin: auto;
+   
+    
+    justify-content: center;
+    align-items: center;
+
+} 
+img{
+    height: auto;
+    width: 100%;
+    background-attachment: scroll;
+    align-items: center;
+}
+body{
+    background-color: rgb(232, 201, 201)
+    (246, 246, 241);
+   
+}
+.lead{
+    color: blue;
+    font-size: large;
+}
+#about{
+    background-color: #e9ecef;
+}
+
+.oval{
+     width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+
+}
+.myimg{
+    display: grid;
+    place-items: center;
+    
+}
+.position{
+    position: fixed;
+    width:100% ;
+    padding: 15px;
+}
+
+/* Navbar style */
+.navbar {
+  background: #333;
+  padding: 10px;
+  position: relative;
+}
+
+/* Menu links */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;            /* horizontal by default */
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon (hidden on big screens) */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive: small screens */
+@media (max-width: 768px) {
+  .menu {
+    display: none;            /* hide menu by default */
+    flex-direction: column;   /* vertical links */
+    background: #333;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu {
+    display: flex; /* show menu when hamburger clicked */
+  }
+
+  .menu-icon {
+    display: block; /* show hamburger */
+  }
+}
+.logo{
+    color: white;
+}
+
+.card-body{
+    background-color: beige;
+}
+
+
